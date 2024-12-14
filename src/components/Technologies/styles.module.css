@@ -1,0 +1,44 @@
+.title {
+    margin: 5rem 0;
+    text-align: center;   
+    font-size: 2.25rem;
+}
+
+.iconsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.iconWrapper {
+    border-radius: 1rem;
+    border: .25rem solid #262626;
+    padding: 1rem;
+}
+
+.icon {
+    font-size: 3.5rem;
+}
+
+.iconJavascript {
+    color:  #f0db4f;
+    border-radius: 1rem;
+}
+
+.iconReact {
+    color: #22d3ee;
+}
+
+.iconTailwind {
+    color: #2196f3;
+}
+
+.iconBootstrap {
+    color: #6f42c1;
+}
+
+.iconGithub {
+    color: #fff;
+}
