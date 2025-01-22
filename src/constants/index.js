@@ -60,10 +60,20 @@ export const PROJECTS = [
     id: 1,
     title: "Travel Website",
     image: travelWebsite,
+    url: "https://firstclasstravels.netlify.app",
     description:
       "A fully functional travel website offering destination guides, booking services, personalized itineraries, user reviews, and travel tips for seamless trip planning worldwide.",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
+    technologies: ["JavaScript", "React", "Tailwind"],
   },
+  {
+    id: 2,
+    title: "Digital Business Website",
+    image: travelWebsite,
+    url: "https://digitalnomadhub.netlify.app",
+    description:
+      "A dynamic business website providing early-stage founders with funding, growth insights, expert guidance, and flexible capital to accelerate startup success.",
+    technologies: ["JavaScript", "React"],
+  }
 ];
 
 export const CONTACT = {
