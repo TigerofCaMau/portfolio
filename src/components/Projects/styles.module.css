@@ -7,17 +7,23 @@
 
 .projectsContainer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
-.imageWrapper {
-    width: 100%;
-    margin-bottom: 1.5rem;
+.imageContainer {
+    display: flex;
+    align-content: center;
+    flex: 0 1 30%;
+    max-width: 30%;
+    padding-left: 2rem;
 }
 
 .image {
+    width: 100%;
+    height: auto;
     border-radius: .5rem;
     transition: transform .5s ease;
 }
@@ -28,8 +34,8 @@
 }
 
 .detailsColumn {
-    width: 100%;
-    max-width: 48rem;
+    flex: 0 1 70%;
+    max-width: 70%;
 }
 
 .projectTitle {
@@ -55,7 +61,7 @@
 
 @media (min-width: 1024px) {
     .imageWrapper {
-        width: 25%;
+        width: 40%;
     }
 
     .detailsColumn {

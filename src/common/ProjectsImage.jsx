@@ -12,8 +12,6 @@ const ProjectsImage = ({ image, alt }) => {
                 <img
                     src={image}
                     alt={alt}
-                    width={150}
-                    height={150}
                     className={styles.image}
                 />    
         </motion.div>
