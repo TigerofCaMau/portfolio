@@ -1,6 +1,7 @@
 import travelWebsite from '../assets/projects/travel-website.png';
 import digitalnomadhub from '../assets/projects/digitalnomadhub.png';
 import findMySafeHaven from '../assets/projects/findmysafehaven.png';
+import constructionY from '../assets/projects/construction-website.png';
 
 export const HERO_CONTENT = `
   I am a dedicated frontend developer with a strong passion for building dynamic, scalable, and user-friendly web applications. With expertise in modern frontend technologies such as React and Next.js, I continuously refine my skills and stay updated with industry advancements to deliver high-quality solutions.
@@ -74,7 +75,7 @@ export const PROJECTS = [
     url: "https://digitalnomadhub.netlify.app",
     description:
       "A dynamic business website providing early-stage founders with funding, growth insights, expert guidance, and flexible capital to accelerate startup success.",
-    technologies: ["JavaScript", "React"],
+    technologies: ["JavaScript", "React", "Next.js"],
   },
   {
     id: 3,
@@ -83,6 +84,15 @@ export const PROJECTS = [
     url: "https://findmysafehaven.netlify.app/",
     description:
       "A real estate website showcasing properties for sale or rent, featuring detailed listings, virtual tours, and investment opportunities.",
+    technologies: ["JavaScript", "React", "Tailwind"],
+  },
+  {
+    id: 4,
+    title: "Construction Website",
+    image: constructionY,
+    url: "https://constructiony.netlify.app/",
+    description:
+      "Dedicated to top-quality, innovative, and sustainable construction, we bring 25+ years of expertise, precision, and excellence to every project.",
     technologies: ["JavaScript", "React", "Tailwind"],
   }
 ];
