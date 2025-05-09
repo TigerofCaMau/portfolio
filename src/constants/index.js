@@ -2,6 +2,7 @@ import travelWebsite from '../assets/projects/travel-website.png';
 import digitalnomadhub from '../assets/projects/digitalnomadhub.png';
 import findMySafeHaven from '../assets/projects/findmysafehaven.png';
 import constructionY from '../assets/projects/construction-website.png';
+import weatherApp from '../assets/projects/weather-app.png';
 
 export const HERO_CONTENT = `
   I am a dedicated frontend developer with a strong passion for building dynamic, scalable, and user-friendly web applications. With expertise in modern frontend technologies such as React and Next.js, I continuously refine my skills and stay updated with industry advancements to deliver high-quality solutions.
@@ -94,6 +95,15 @@ export const PROJECTS = [
     description:
       "Dedicated to top-quality, innovative, and sustainable construction, we bring 25+ years of expertise, precision, and excellence to every project.",
     technologies: ["JavaScript", "React", "Tailwind"],
+  },
+  {
+    id: 5,
+    title: "Weather App",
+    image: weatherApp,
+    url: "https://rainytoday.netlify.app/",
+    description:
+      "A weather app fetching real-time data from OpenWeatherMap API, displaying temperature, conditions, and location-based forecasts in a clean UI.",
+    technologies: ["JavaScript", "React", "OpenWeatherMap API"],
   }
 ];
 
