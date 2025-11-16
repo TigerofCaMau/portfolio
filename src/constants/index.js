@@ -3,6 +3,7 @@ import digitalnomadhub from '../assets/projects/digitalnomadhub.png';
 import findMySafeHaven from '../assets/projects/findmysafehaven.png';
 import constructionY from '../assets/projects/construction-website.png';
 import weatherApp from '../assets/projects/weather-app.png';
+import jobTracker from '../assets/projects/job-tracker.png';
 
 export const HERO_CONTENT = `
   I am a dedicated frontend developer with a strong passion for building dynamic, scalable, and user-friendly web applications. With expertise in modern frontend technologies such as React and Next.js, I continuously refine my skills and stay updated with industry advancements to deliver high-quality solutions.
@@ -104,6 +105,15 @@ export const PROJECTS = [
     description:
       "A weather app fetching real-time data from OpenWeatherMap API, displaying temperature, conditions, and location-based forecasts in a clean UI.",
     technologies: ["JavaScript", "React", "OpenWeatherMap API"],
+  },
+  {
+    id: 6,
+    title: "Job Tracker App",
+    image: jobTracker,
+    url: "https://career-journal.netlify.app/",
+    description:
+      "A simple, clean, and efficient web application for managing and tracking your job applications. Built with React + Vite, featuring filtering, sorting, searching, and full CRUD functionality.",
+    technologies: ["JavaScript", "React", "Vite"],
   }
 ];
 
