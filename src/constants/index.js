@@ -4,6 +4,7 @@ import findMySafeHaven from '../assets/projects/findmysafehaven.png';
 import constructionY from '../assets/projects/construction-website.png';
 import weatherApp from '../assets/projects/weather-app.png';
 import jobTracker from '../assets/projects/job-tracker.png';
+import budgetTracker from '../assets/projects/budget-tracker.png';
 
 export const HERO_CONTENT = `
   I am a dedicated frontend developer with a strong passion for building dynamic, scalable, and user-friendly web applications. With expertise in modern frontend technologies such as React and Next.js, I continuously refine my skills and stay updated with industry advancements to deliver high-quality solutions.
@@ -114,11 +115,20 @@ export const PROJECTS = [
     description:
       "A simple, clean, and efficient web application for managing and tracking your job applications. Built with React + Vite, featuring filtering, sorting, searching, and full CRUD functionality.",
     technologies: ["JavaScript", "React", "Vite"],
+  },
+  {
+    id: 7,
+    title: "Budget Tracker App",
+    image: budgetTracker,
+    url: "https://trackmysavings.netlify.app/dashboard",
+    description:
+      "A simple expense tracking app that lets users log spending, organize expenses by month and category, search through transactions, and visualize monthly spending with charts.",
+    technologies: ["JavaScript", "React", "Next.js", "Typescript", "Supabase", "Chart.js"],
   }
 ];
 
 export const CONTACT = {
   // address: "767 Fifth Avenue, New York, NY 10153 ",
-  // phoneNo: "+12 4555 666 00 ",
+  // phone: "+12 4555 666 00 ",
   email: "nghiacn1986@gmail.com",
 };
