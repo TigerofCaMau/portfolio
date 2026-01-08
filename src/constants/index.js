@@ -123,7 +123,7 @@ export const PROJECTS = [
     url: "https://trackmysavings.netlify.app/dashboard",
     description:
       "A simple expense tracking app that lets users log spending, organize expenses by month and category, search through transactions, and visualize monthly spending with charts.",
-    technologies: ["JavaScript", "React", "Next.js", "Typescript", "Supabase", "Chart.js"],
+    technologies: ["React", "Next.js", "Typescript", "Supabase", "Chart.js"],
   }
 ];
 
